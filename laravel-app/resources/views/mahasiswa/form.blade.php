@@ -31,16 +31,18 @@
 
     @endforeach
 
-    <div class="flex gap-3">
+    <div style="display:flex; gap:12px; margin-top:20px;">
+
         <button type="submit"
-            class="bg-blue-600 text-white px-4 py-2 rounded">
+            style="background-color:#2563eb; color:white; padding:10px 20px; border-radius:6px; border:none; cursor:pointer;">
             Simpan
         </button>
 
         <a href="{{ route('mahasiswa.index') }}"
-            class="bg-gray-300 px-4 py-2 rounded">
+            style="background-color:#e5e7eb; color:#111827; padding:10px 20px; border-radius:6px; text-decoration:none;">
             Batal
         </a>
+
     </div>
 
 </div>
